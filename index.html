@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link href = "https://fonts.googleapis.com/icon?family=Material+Icons" rel = "stylesheet">
+        <style>
+            body {
+                padding: 20%; text-align: center;
+            }
+            i.heading {
+                font-size: 4em;
+                color: red;
+                animation-name: settings;
+                animation-duration: 4s;
+                animation-delay: 0s;
+                animation-iteration-count: infinite;
+            }
+            @keyframes settings {
+                0%      {color:red; transform: rotate(0deg);}
+                17%     {color:orange; transform: rotate(60deg);}
+                33%     {color:yellow; transform: rotate(120deg);}
+                50%     {color:#55EE00; transform: rotate(180deg);}
+                67%     {color:#1188EE; transform: rotate(240deg);}
+                83%     {color:#EE33EE; transform: rotate(300deg);}
+                100%    {color:red; transform: rotate(360deg);}
+            }
+         </style>
+     </head>
+    <body>
+        <h1><i class = "material-icons heading">settings</i></h1>
+    </body>
+</html>
